@@ -1,0 +1,17 @@
+/* Single-notebook lock-down: hide every UI element that could open/navigate to other files. */
+#top-panel-wrapper, #menu-panel-wrapper, #spacer-widget-top,
+.jp-SideBar, #jp-main-statusbar { display: none !important; }
+
+#lockbar {
+  position: fixed; top: 0; left: 0; right: 0; height: 28px; z-index: 10000;
+  display: flex; align-items: center; gap: 8px; padding: 0 10px;
+  background: #1c2333; color: #fff; font: 600 13px system-ui, sans-serif;
+}
+#lockbar .t { margin-right: auto; }
+#lockbar .s { font-weight: 400; font-size: 12px; opacity: .75; margin-right: 8px; }
+#lockbar button {
+  border: 0; border-radius: 7px; padding: 2px 10px; font: 600 12px system-ui, sans-serif;
+  cursor: pointer; background: #2f6df6; color: #fff;
+}
+#lockbar button.sec { background: #ffffff22; }
+#lockbar button:disabled { opacity: .5; cursor: default; }

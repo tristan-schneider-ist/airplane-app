@@ -1,0 +1,54 @@
+{
+  "ctairplane": {
+    "releases": {
+      "0.2.2": [
+        {
+          "comment_text": "",
+          "digests": {
+            "md5": "28f1713604ab71cb57dcb560c437be33",
+            "sha256": "ea56cc9ddb0abfb05d79ff9a0de6684afd6ff796a4d0d958122b2cf530da4492"
+          },
+          "downloads": -1,
+          "filename": "ctairplane-0.2.2-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "28f1713604ab71cb57dcb560c437be33",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.10",
+          "size": 26318,
+          "upload_time": "2026-10-15T09:01:04.932675Z",
+          "upload_time_iso_8601": "2026-10-15T09:01:04.932675Z",
+          "url": "./ctairplane-0.2.2-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        }
+      ]
+    }
+  },
+  "ctbridge": {
+    "releases": {
+      "0.1.1": [
+        {
+          "comment_text": "",
+          "digests": {
+            "md5": "28bcd71a1f5c71930c307918c2020852",
+            "sha256": "204c2ffbf7a9723452dba437bdcb10bb7c89ceca4f9f6a33ff1f942e54ce3cd8"
+          },
+          "downloads": -1,
+          "filename": "ctbridge-0.1.1-py3-none-any.whl",
+          "has_sig": false,
+          "md5_digest": "28bcd71a1f5c71930c307918c2020852",
+          "packagetype": "bdist_wheel",
+          "python_version": "py3",
+          "requires_python": ">=3.10",
+          "size": 6583,
+          "upload_time": "2026-10-15T09:01:03.974465Z",
+          "upload_time_iso_8601": "2026-10-15T09:01:03.974465Z",
+          "url": "./ctbridge-0.1.1-py3-none-any.whl",
+          "yanked": false,
+          "yanked_reason": null
+        }
+      ]
+    }
+  }
+}
